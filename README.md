@@ -38,4 +38,4 @@ Open a command prompt and then type in the following code..
 ``` shell
 docker run -i -t --network host --mount type=bind,source=<SOURCE-Path>,target=/workspace/docker-mount pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
 ```
-replace <SOURCE-Path> with the folder path tto docker-mount folder you just created. 
+Replace SOURCE-Path with the folder path to docker-mount folder you just created. 
